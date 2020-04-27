@@ -73,7 +73,7 @@ hr{
 }
 
 .container-fluid{
-  height: 10%;
+  height: 12%;
   position: fixed;
 }
 
@@ -86,3 +86,4 @@ hr{
 .social:hover{
   transform: scale(0.85);
 }
+
