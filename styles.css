@@ -12,18 +12,21 @@ h1 {
   background-color: #f9fd50;
   height: 600px;
   padding: 0;
+  overflow: auto;
 }
 
-#features{
-  height: 650px;
+.set2{
+  height: 550px;
+  overflow: auto;
 }
 
-@media only screen and (max-width: 479px){
-    #features { width: 90%; }
+.ceo{
+  margin-right: 20px;
 }
 
 .set3{
-  height: 700px;
+  height: 550px;
+  overflow: auto;
 }
 
 h2 {
@@ -40,6 +43,10 @@ h3{
 
 .row{
   padding: 2% 10% 0 10%;
+}
+
+.navbar{
+  position: fixed;
 }
 
 .nav-link{
@@ -78,7 +85,6 @@ hr{
 
 .container-fluid{
   height: 12%;
-  position: fixed;
 }
 
 .footer{
