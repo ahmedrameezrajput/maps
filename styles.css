@@ -1,5 +1,7 @@
 body{
-font-family: "Do Hyeon";
+  font-family: "Do Hyeon";
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 h1 {
@@ -8,25 +10,12 @@ h1 {
   font-size: 4rem !important;
 }
 
-.set1{
-  background-color: #f9fd50;
-  height: 600px;
-  padding: 0;
-  overflow: auto;
-}
-
-.set2{
-  height: 550px;
-  overflow: auto;
-}
-
 .ceo{
   margin-right: 20px;
 }
 
-.set3{
-  height: 550px;
-  overflow: auto;
+.row{
+  padding: 0 10% 0 10%;
 }
 
 h2 {
@@ -41,12 +30,8 @@ h3{
   color: #207dff;
 }
 
-.row{
-  padding: 2% 10% 0 10%;
-}
-
 .navbar{
-  position: fixed;
+  border-radius: 10px;
 }
 
 .nav-link{
@@ -79,8 +64,9 @@ hr{
 }
 
 #title{
-  color: #649d66;
-  height: 25rem;
+  background-color: #f9fd50;
+  height: 30%;
+  padding: 0;
 }
 
 .container-fluid{
