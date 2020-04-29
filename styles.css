@@ -10,8 +10,13 @@ h1 {
   font-size: 4rem !important;
 }
 
-.ceo{
-  margin-right: 20px;
+.about-ceo{
+  background-color: #f9fd50;
+  margin: 0 5%;
+}
+
+.img-ceo{
+  padding: 5%;
 }
 
 .row{
